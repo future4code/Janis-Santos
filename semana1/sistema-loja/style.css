@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(163, 223, 195);
+} 
+
+div 
+h1 {
+color: white;
+text-align: center;
+font-family: Copperplate, Papyrus, fantasy;
+font-size: 40px;
+} 
+
+p {
+color: white;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+}
+
+div
+a {
+color: rgb(7, 0, 3);
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+}
+
+div {
+color: rgb(255, 255, 255);
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+    }    
+
+table {
+color: rgb(7, 0, 3);
+align-items: center;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+}
+
+
+.funcionarios {
+color: rgb(255, 255, 255);
+text-align: left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+
+}    
+
+ul {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+       
+}
+
+
+    
