@@ -1,18 +1,7 @@
 body {
     background-color: rgb(163, 223, 195);
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 0px;
-    
 } 
-.addproduto {
-    color: rgb(10, 2, 2);
-    align-content: left;
-    width: 200px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px; 
-    display: inline-block;
-}
+
 div 
 h1 {
 color: white;
@@ -21,6 +10,12 @@ font-family: Copperplate, Papyrus, fantasy;
 font-size: 40px;
 } 
 
+div {
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;    
+}
 h2 {
     color: white;
     text-align: center;
@@ -28,15 +23,16 @@ h2 {
     font-size: 30px;
     } 
 
+
 p {
 color: white;
-text-align: center;
+text-align: left;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
 }
 
 div
-a {
+ {
 color: rgb(7, 0, 3);
 text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -67,14 +63,6 @@ font-size: 15px;
 
 }    
 
-ul {
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-       
-}
-
 ol {
     color: rgb(255, 255, 255);
     text-align: left;
@@ -82,21 +70,6 @@ ol {
     font-size: 15px;
        
 }
-
-.formulario {
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    
-}
-
-.historicodevendas {
-    color: rgb(255, 255, 255);
-    align-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px; 
-} 
 
 
     
