@@ -51,6 +51,8 @@ div img {
 }
 
 .container {
+    border: 1px;
+    margin-top: auto;
     height: 500px;
     text-align: center;
 }
@@ -98,7 +100,9 @@ div:last-child {
 }
 
 table {
-    width: 60%;
+    border: 1px;
+    margin: auto;
+    width: 50%;
 }
 
 td button {
