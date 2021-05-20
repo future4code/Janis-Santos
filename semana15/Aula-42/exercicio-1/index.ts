@@ -7,26 +7,31 @@ const meuNumero: number | string = 39
 
 /*Exercício 1: c) */
 
+enum CORES { 
+    AZUL= "Azul",
+    PRETO= "Preto",
+    ROSA= "Rosa"
+}
 type person = {
     name: string,
     age: number,
-    favoriteColor: string
+    favoriteColor: CORES
 }
 
 const janis: person = {
     name: "Janis Costadelli",
     age: 18,
-    favoriteColor: "Azul"
+    favoriteColor: CORES.AZUL
 }
 
 const nicolas: person = {
     name: "Nicolas Alexandre",
     age: 15,
-    favoriteColor: "Preto"
+    favoriteColor: CORES.PRETO
 }
 
 const emily: person = {
     name: "Emily Rosi",
     age: 7,
-    favoriteColor: "Rosa"
+    favoriteColor: CORES.ROSA
 }
