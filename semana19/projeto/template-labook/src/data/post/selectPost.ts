@@ -1,19 +1,14 @@
-import { Request, Response } from "express";
-import { connection } from "../../data/connection";
 import { post } from "../../model/post/postModel";
+import { connection } from "../connection";
 
-export const getPostById = async (req: Request, res: Response) => {
+export const selectPost = async (id: string): Promise<post> => {
   try {
-    let message = "Success!";
-
-    const { id } = req.params;
-
+    let message = "Sucess!";
     const queryResult: any = await connection("labook_posts")
       .select("*")
       .where({ id });
 
     if (!queryResult[0]) {
-      res.statusCode = 404;
       message = "Post not found";
       throw new Error(message);
     }
@@ -26,12 +21,8 @@ export const getPostById = async (req: Request, res: Response) => {
       createdAt: queryResult[0].created_at,
       authorId: queryResult[0].author_id,
     };
-
-    res.status(200).send({ message, post });
+    return post;
   } catch (error) {
-    let message = error.sqlMessage || error.message;
-    res.statusCode = 400;
-
-    res.send({ message });
+    throw new Error(error.sqlMessage || error.message);
   }
 };

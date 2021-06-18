@@ -1,5 +1,5 @@
 import { compare } from "bcryptjs";
-import { getUser } from "../../data/user/getUser";
+import { getUser } from "../../data/user/selectUser";
 import { generateToken } from "../../middleware/tokenManager";
 import { loginDTO, user } from "../../model/user/userModel";
 
